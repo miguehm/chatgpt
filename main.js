@@ -2,8 +2,6 @@ import './style.css';
 
 const boton = document.getElementById('boton');
 
-//console.log(import.meta.env.VITE_SALUDO);
-
 boton.addEventListener('click', function(){
 	const texto = document.getElementById('texto').value;
 	//alert(texto);
