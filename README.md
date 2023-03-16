@@ -25,3 +25,8 @@ Now, you can send questions to ChatGPT!
 ![](https://user-images.githubusercontent.com/80235345/225520902-9eee2503-bd91-4f8e-b0bc-82467a9993eb.png)
 
 ![](https://user-images.githubusercontent.com/80235345/225521087-6ba6b083-c31f-436d-a330-f2c95c261d57.png)
+
+# Future fix
+
+- Repository's deployment with github pages does not work because I cannot add an enviroment variable on github actions.
+- Wix deployment block my API KEY.
