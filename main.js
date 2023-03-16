@@ -1,6 +1,8 @@
-import './style.css'
+import './style.css';
 
 const boton = document.getElementById('boton');
+
+//console.log(import.meta.env.VITE_SALUDO);
 
 boton.addEventListener('click', function(){
 	const texto = document.getElementById('texto').value;
@@ -9,7 +11,7 @@ boton.addEventListener('click', function(){
 
 	var myHeaders = new Headers();
 
-	myHeaders.append('Authorization', 'Bearer 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');
+	myHeaders.append('Authorization', import.meta.env.VITE_API_KEY);
 	myHeaders.append('Content-Type', 'application/json');
 
 	var raw = JSON.stringify({
