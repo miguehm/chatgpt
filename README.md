@@ -6,6 +6,10 @@ An example using ChatGPT API to get responses of questions in a simple web page 
 
 ![](https://user-images.githubusercontent.com/80235345/225521361-68515c8d-1ffe-4b02-893c-e84dd2e7157f.png)
 
+# Dependences
+
+- Nodejs
+- An API KEY. You can get one in [OpenAI Platform](https://platform.openai.com/)
 
 # Important
 
