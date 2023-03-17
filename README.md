@@ -12,10 +12,14 @@ An example using ChatGPT API to get responses of questions in a simple web page 
 You need to create a `.env` file and put your ChatGPT's `API KEY`:
 
 ```env
-VITE_API_KEY="your secret key"
+VITE_API_KEY="your own API secret key"
 ```
 
 # How to run
+
+1. Clone this repo.
+
+2. Inside `example-chatgpt` folder, execute:
 
 ```bash
 npm install
@@ -30,5 +34,4 @@ Now, you can send questions to ChatGPT!
 
 # Future fixes
 
-- Repository's deployment with github pages does not work because I cannot add an enviroment variable on github actions.
-- Wix deployment blocks my API KEY.
+- [x] Repository's deployment with github pages. Now is running [here](https://example-chatgpt.netlify.app/) :smile:
