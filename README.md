@@ -1,5 +1,7 @@
 # example-chatgpt
 
+You can visit my site [here](https://example-chatgpt.netlify.app/).
+
 An example using ChatGPT API to get responses of questions in a simple web page using `vite`.
 
 ![](https://user-images.githubusercontent.com/80235345/225521361-68515c8d-1ffe-4b02-893c-e84dd2e7157f.png)
